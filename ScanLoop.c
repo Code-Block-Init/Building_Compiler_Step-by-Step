@@ -1,4 +1,4 @@
-/ScanLoop.c for recognizing identifiers and integer literals*/
+/*ScanLoop.c for recognizing identifiers and integer literals*/
 #include<stdio.h>
 #include<ctype.h>
 int in_char, c;
