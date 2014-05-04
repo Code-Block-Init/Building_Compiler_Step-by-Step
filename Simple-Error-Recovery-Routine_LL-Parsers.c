@@ -43,6 +43,8 @@ void ll+AF8-recovery(void)
 /*-----------Programming format (English)---------------------------*/
 #include<stdio.h>
 #include<ctype.h>
+#include<math.h>
+#include<string.h>
 static boolean parse_error(symbol stack_top, terminal current_token)
 {
 	if(stack_top ∈ x)
