@@ -17,11 +17,11 @@ class SimpleParser
 	void get_token();
 	int isdelim(char c);
 public:
-	Simpleparser();
+	SimpleParser();
 	double eval_exp(char *exp);
 };
 //Parser constructor
-SimpleParser::Simpleparser()
+SimpleParser::SimpleParser()
 {
 	exp_ptr = NULL;
 }
