@@ -17,11 +17,11 @@ class SimpleParser
 	void get_token();
 	int isdelim(char c);
 public:
-	parser();
+	Simpleparser();
 	double eval_exp(char *exp);
 };
 //Parser constructor
-SimpleParser::parser()
+SimpleParser::Simpleparser()
 {
 	exp_ptr = NULL;
 }
@@ -109,7 +109,7 @@ void SimpleParser::eval_exp4(double &result)
 //Evaluate unary + or -
 void SimpleParser::eval_exp5(double &result)
 {
-	resgister char op;
+	register char op;
 	op = 0;
 	if((tok_type == DELIMITER) && *token=='+' || *token=='-')
 	{
@@ -176,7 +176,7 @@ void SimpleParser::get_token()
 	}
 	else if(isdigit(*exp_ptr))
 	{
-		while(!isdelim(*emp_ptr))
+		while(!isdelim(*exp_ptr))
 			*temp++ = *exp_ptr++;
 		tok_type = NUMBER;
 	}
