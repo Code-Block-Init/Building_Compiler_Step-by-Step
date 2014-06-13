@@ -6,4 +6,5 @@ Pre-requistes:-<br>
 --- Interest in coding and math.<br>
 --- Basic coding skills in C.<br>
 <br>
-
+Compiler design - Basics : http://ashumeow.tumblr.com/post/88638106412/compiler-design-basics-compilers-parsers
+<br>
